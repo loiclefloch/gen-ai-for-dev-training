@@ -6,7 +6,7 @@ A training repository containing practical exercises (TPs) for learning and prac
 
 This repository is organized into three practical exercises:
 
-- **tp1/** - Practical Exercise 1
+- **tp1/** - Practical Exercise 1 - Spec Driven Development
 - **tp2/** - Practical Exercise 2
 - **tp3/** - Practical Exercise 3
 
