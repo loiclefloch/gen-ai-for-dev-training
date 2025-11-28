@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * In-memory product repository - Legacy implementation
- * Issues: Not thread-safe, no transactions, hardcoded data
+ * Issues: Not thread-safe, no transactions
  */
 public class ProductRepository {
     
