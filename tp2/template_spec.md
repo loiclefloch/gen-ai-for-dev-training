@@ -1,3 +1,5 @@
+# TEMPLATE – Analyse générale
+
 # 1. Synthèse générale
 Décrire une brève synthèse des objectifs métier, du contexte général, du périmètre fonctionnel et de la stack principale.
 (Observé / Déduit)
