@@ -1,8 +1,11 @@
 # TP — Spec Driven Development - Site de e-commerce
 
-L’exercice consiste à implémenter les pages principales d’un mini-site e-commerce à partir de spécifications fonctionnelles.
+Cet exercice consiste à mettre en pratique la méthodologie de développement assistée par IA présentée en cours: 
+- étape 1 : planifier
+- étape 2 : implémenter une première tâche
+- étape n : implémenter une tâche 
 
-L'objectif est de suivre la méthodologie présentée pour générer le code correspondant grâce à l’IA, le vérifier, le compléter.
+L'objet de l'exercice est un mini-site de e-commerce composées de deux pages principales. Les spécifications fonctionnelles et techniques sont fournies dans ce répertoire.
 
 ---
 
