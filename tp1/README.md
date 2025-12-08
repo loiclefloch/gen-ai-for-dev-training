@@ -1,5 +1,7 @@
 # TP — Spec Driven Development - Site de e-commerce
 
+## Objectifs
+
 Cet exercice consiste à mettre en pratique la méthodologie de développement assistée par IA présentée en cours: 
 - étape 1 : planifier
 - étape 2 : implémenter une première tâche
@@ -7,9 +9,7 @@ Cet exercice consiste à mettre en pratique la méthodologie de développement a
 
 L'objet de l'exercice est un mini-site de e-commerce composées de deux pages principales. Les spécifications fonctionnelles et techniques sont fournies dans ce répertoire.
 
----
-
-## Spécifications fonctionnelles du site
+## Spécifications du site
 
 - **spec_home_page.md**  
   Spécification fonctionnelle de la home : mise en avant, recherche intégrée, gestion des résultats.
@@ -19,5 +19,8 @@ L'objet de l'exercice est un mini-site de e-commerce composées de deux pages pr
 
 - **spec_consultation_produit.md**  
   Spécification fonctionnelle de la fiche produit : images, description, prix, disponibilité.
+
+- **architecture_technique.md**  
+  Architecture applicative générale de l'application : langages, design, persistance.
 
 ---
