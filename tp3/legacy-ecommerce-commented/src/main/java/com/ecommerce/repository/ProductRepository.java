@@ -4,8 +4,13 @@ import com.ecommerce.model.Product;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * In-memory product repository - Legacy implementation
+ * Issues: Not thread-safe, no transactions
+ */
 public class ProductRepository {
     
+    // Singleton pattern - not using dependency injection
     private static ProductRepository instance;
     
     private Map<Long, Product> products = new HashMap<>();
@@ -22,6 +27,7 @@ public class ProductRepository {
         return instance;
     }
     
+    // Hardcoded test data
     private void initializeData() {
         addProduct("Laptop", "High-performance laptop", 999.99, 10, "Electronics");
         addProduct("Mouse", "Wireless mouse", 29.99, 50, "Electronics");
@@ -73,6 +79,7 @@ public class ProductRepository {
         products.remove(id);
     }
     
+    // No proper stock management - race condition possible
     public boolean decrementStock(Long productId, int quantity) {
         Product product = products.get(productId);
         if (product != null && product.stock >= quantity) {
