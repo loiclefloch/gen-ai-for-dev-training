@@ -10,6 +10,7 @@ import java.util.*;
 public class OrderService {
     
     private static OrderService instance;
+    private static OrderService instance2;
 
     private ProductRepository productRepository = ProductRepository.getInstance();
     
